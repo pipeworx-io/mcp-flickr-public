@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/flickr-public",
+  "title": "Flickr Public",
+  "description": "Flickr keyless public photo feeds (recent, by tag, by user, by group)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/flickr-public",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-flickr-public",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/flickr-public/mcp"
+    }
+  ]
+}
