@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-flickr-public",
-  "version": "0.1.0",
-  "description": "Flickr keyless public photo feeds (recent, by tag, by user, by group)",
+  "version": "0.1.1",
+  "description": "Flickr public feeds MCP — keyless slice of the Flickr API.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-flickr-public": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "flickr-public"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-flickr-public"
+    "url": "git+https://github.com/pipeworx-io/mcp-flickr-public.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b302d32f84591c0b219eeb8ebb07e8bed8ac96e8e2b1a9bc3f696c54c3fc0b18",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }

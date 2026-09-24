@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/flickr-public",
   "title": "Flickr Public",
-  "description": "Flickr keyless public photo feeds (recent, by tag, by user, by group)",
-  "version": "0.1.0",
+  "description": "Flickr public feeds MCP — keyless slice of the Flickr API.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/flickr-public",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-flickr-public",
