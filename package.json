@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-flickr-public",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Flickr public feeds MCP — keyless slice of the Flickr API.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b302d32f84591c0b219eeb8ebb07e8bed8ac96e8e2b1a9bc3f696c54c3fc0b18",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-5f61748a0c74201109eab19ae9f49120181e8901eca0fddf30e8ca00f303496e",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
