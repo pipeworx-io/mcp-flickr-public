@@ -2,7 +2,7 @@
 
 Flickr public photo feeds — keyless slice of the Flickr API. Only what the [feeds endpoint](https://www.flickr.com/services/feeds/) exposes: public recent photos, by tag, by user, by group.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1879+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 For everything else (full search, faves, comments) Flickr requires an API key — out of scope for this pack.
 
@@ -60,7 +60,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1866+ data sources. The
+Both URLs reach the same gateway and the same 1879+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
