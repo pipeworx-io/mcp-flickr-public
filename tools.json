@@ -1,0 +1,61 @@
+[
+  {
+    "name": "recent",
+    "description": "Most recent public uploads, optionally tag-filtered.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tags": {
+          "type": "string",
+          "description": "Comma-sep tags, e.g. \"sunset,beach\""
+        },
+        "tagmode": {
+          "type": "string",
+          "description": "all | any (default all)"
+        },
+        "limit": {
+          "type": "number",
+          "description": "1-20 (Flickr caps the feed at 20)."
+        }
+      }
+    }
+  },
+  {
+    "name": "by_user",
+    "description": "Public uploads from one user.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "user_id": {
+          "type": "string",
+          "description": "Flickr NSID (e.g. \"12345678@N00\") or screenname."
+        },
+        "limit": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "user_id"
+      ]
+    }
+  },
+  {
+    "name": "by_group",
+    "description": "Public uploads in one group.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "group_id": {
+          "type": "string",
+          "description": "Flickr group id."
+        },
+        "limit": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "group_id"
+      ]
+    }
+  }
+]

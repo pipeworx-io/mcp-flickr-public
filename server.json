@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/flickr-public",
   "title": "Flickr Public",
   "description": "Flickr public feeds MCP — keyless slice of the Flickr API.",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/flickr-public",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-flickr-public",
